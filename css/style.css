@@ -1,0 +1,433 @@
+@font-face {
+    font-family: 'SimplerPro';
+    src: url(../fonts/SimplerPro-Regular.otf) format('truetype'), url(/wp-content/themes/tambour/assets/fonts/SimplerPro-Regular.woff) format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SimplerPro';
+    src: url(../fonts/SimplerPro-Regular.otf) format('truetype'), url(/wp-content/themes/tambour/assets/fonts/SimplerPro-Regular.woff) format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SimplerPro';
+    src: url(../fonts/SimplerPro-Bold.otf) format('truetype'), url(/wp-content/themes/tambour/assets/fonts/SimplerPro-Bold.woff) format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+html {
+    font-size: calc(100vw / 120);
+}
+
+body {
+    scroll-padding-top: 8.75rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'SimplerPro';
+    font-display: swap;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    /* text-rendering: optimizeLegibility; */
+}
+
+body{
+	font-size: 2.5vw;
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+	overflow-x: hidden;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+*{
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background: #fff;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.inner{
+	width: 96%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header{
+	width: 100%;
+	position: relative;
+	padding: 3.5% 0;
+}
+#header .logo{
+	
+width: 19%;
+	
+margin: 0 auto;
+}
+#step1{
+	width: 100%;
+	position: relative;
+	background: #DB0632;
+	height: 2vw;
+	margin-top: 0.5%;
+	height: 59vw;
+	z-index: 3;
+}
+#step2{
+	width: 100%;
+	position: relative;
+	background: #F67E1C;
+	height: 84.5vw;
+	margin-top: 2.1%;
+	z-index: 2;
+}
+#step3{
+	width: 100%;
+	position: relative;
+	background: #F540A7;
+	margin-top: 2.2%;
+	height: 65vw;
+	z-index: 1;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 550%;
+    letter-spacing: -4px;
+}
+
+
+#step1 .title{
+	padding-top: 3.3%;
+}
+#step2 .title{
+	padding-top: 5.2%;
+}
+#step3 .title{
+	padding-top: 2.9%;
+}
+
+
+
+ 
+#step1 .row{
+	
+display: flex;
+	
+justify-content: center;
+}
+#step1 .row .img{
+	
+width: 52%;
+	
+position: relative;
+	
+right: -4.2%;
+	
+margin-top: -4.8vw;
+}
+#step1 .row .list{
+	
+width: 30%;
+	
+position: relative;
+	
+left: 8%;
+	
+top: 3vw;
+}
+
+#step1 .row .list ul{
+	
+display: flex;
+	
+list-style-type: none;
+	
+flex-wrap: wrap;
+	
+color: #fff;
+	
+font-size: 50%;
+	
+text-align: center;
+}
+
+
+#step1 .row .list ul li{
+	
+width: 50%;
+	
+margin-bottom: 10%;
+}
+
+
+#step1 .row .list ul li .icon{
+	
+width: 75%;
+	
+margin: 0 auto;
+	
+margin-bottom: 8%;
+}
+
+
+#step1 .row .list ul li .icon-text{
+	
+}
+#step1 .row .list ul li .icon-text strong{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4%;
+}
+
+
+#step2 .text {
+    text-align: center;
+    color: #Fff;
+    font-size: 175%;
+    font-weight: bold;
+    margin-top: 1.9%;
+    line-height: 1;
+}
+
+#step2 .text span{
+	font-size: 110%;
+}
+
+#step2 .video {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+#step2 .list{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 4.35%;
+}
+#step2 .list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+#step2 .list ul li{
+    width: 28%;
+    background: #fff;
+    text-align: center;
+    font-size: 84%;
+    padding: 1.5% 0;
+    color: #DB0632;
+    border-radius: 10px;
+    transition: .3s all;
+}
+#step2 .list ul li:hover{
+    background: #DB0632;
+    color: #fff;
+}
+#step2 .list ul li a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#step2 .list ul li:nth-child(1){
+    width: 34.5%;
+}
+#step2 .list ul li:nth-child(2){
+    width: 27%;
+}
+#step2 .list ul li:nth-child(3){
+    width: 28.2%;
+}
+
+
+
+
+#step3 .text {
+    text-align: center;
+    color: #Fff;
+    font-size: 175%;
+    font-weight: bold;
+    margin-top: 1.9%;
+    line-height: 1;
+    position: relative;
+}
+
+#step3 .text span{
+	font-size: 110%;
+}
+#step3 .video {
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 4.2%;
+}
+#step3 .img{
+
+width: 100%;
+
+display: flex;
+
+justify-content: flex-end;
+}
+#step3 .img div{
+	
+position: relative;
+	
+left: -5.2%;
+	
+top: -7.6vw;
+	
+width: 30.5%;
+}
+
+#step3 ._icon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	left: 13.5%;
+	top: -2.3vw;
+	font-size: 30%;
+	width: 11%;
+}
+#step3 ._icon .icon{
+	
+width: 100%;
+	
+margin-bottom: 11.5%;
+}
+
+
+#step3 ._icon .icon-text{
+	
+}
+#step3 ._icon .icon-text strong{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4%;
+}
+
+
+
+@media(max-width: 1024px){
+	body {
+	    font-size: 6.5vw;
+	}
+
+	#header .logo {
+	    width: 50%;
+	}
+	#step1 .row {
+	    flex-wrap: wrap;
+	    flex-direction: column-reverse;
+	}
+	#step1 .row .list {
+	    width: 70%;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	    top: 0;
+	    margin: 5% auto;
+	}
+	.title {
+	    font-size: 300%;
+	}
+	#step1 {
+	    height: 185vw;
+	}
+	#step1 .row .list ul li .icon {
+	    width: 50%;
+	}
+	#step1 .row .img {
+	    width: 100%;
+	    margin: 0 auto;
+	    left: 0;
+	    right: 0;
+	    margin-top: -15vw;
+	}
+	#step2{
+	    padding-bottom: 5%;
+	}
+	#step2 .text {
+	    font-size: 100%;
+	}
+	#step2 .title {
+	    padding-top: 12.5%;
+	}
+	#step2 {
+	    height: auto;
+	}
+	#step2 .list ul {
+	    display: block;
+	}
+	#step2 .list ul li:nth-child(1) {
+	    width: 100%;
+	    padding: 5% 0;
+	    margin: 5% 0;
+	}
+	#step2 .list ul li:nth-child(2) {
+	    width: 100%;
+	    padding: 5% 0;
+	    margin: 5% 0;
+	}
+	#step2 .list ul li:nth-child(3) {
+	    width: 100%;
+	    padding: 5% 0;
+	    margin: 5% 0;
+	}
+	#step2 .video {
+	    width: 90%;
+	}
+	#step3{
+	    padding-bottom: 5%;
+	}
+	#step3 .text {
+	    font-size: 100%;
+	}
+	#step3 .title {
+	    padding-top: 12.5%;
+	    line-height:.8;
+	    white-space: pre-line;
+	}
+	#step3 {
+	    height: 182.5vw;
+	}
+	#step3 .video {
+	    width: 90%;
+	}
+	#step3 .img div {
+	    top: 0;
+	    left: 0;
+	    width: 43.5%;
+	}
+	#step3 ._icon {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    left: 3.5%;
+	    top: -25.3vw;
+	    font-size: 50%;
+	    width: 14%;
+	}
+}
